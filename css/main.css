@@ -1,0 +1,127 @@
+html{
+    box-sizing: border-box;
+}
+
+
+.contanier {
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+body{
+     font-family: "Lexend Deca", "Arial" sans-serif; 
+     font-weight: 400;
+
+}
+
+.overall-content {
+    
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    padding: 48px;
+    
+    border-radius: 8px;
+    width: 307px;
+    background-color: transparent;
+}
+
+.img {
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.item-about{
+    width: 212px;}
+    
+    .item-heading {
+        margin: 0;
+        margin-bottom: 25px;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #F2F2F2;
+    }
+    
+    .description {
+        margin: 0;
+        margin-bottom: 83px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        opacity: 0.75;
+    }
+    
+    .link {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 11px 31px;
+        background-color: #F2F2F2;
+        border: 2px solid;
+        border-radius: 25px ;
+        text-decoration: none;
+     
+    }
+    
+    .item-sedan{
+        background-color: #E28625;}
+        
+        .item-suv{
+            background-color: #006971;
+        }
+        
+        .item-luxury{
+            background-color: #004140;
+        }
+        
+        .item-link-sedan{
+            color: #E28625;
+        }
+        
+        .item-link-suv{
+            color: #006971;
+        }
+        
+        .item-link-luxury{
+            color: #004140;
+        }
+        
+.item-link-sedan:hover{
+    color: #fff;
+   background-color: #E28625;
+   border-color: #fff;
+ }
+        
+ .item-link-suv:hover{
+    color: #fff;
+    background-color: #006971;
+ }
+        
+.item-link-luxury:hover{
+    color: #fff;
+    background-color: #004140;
+  }
