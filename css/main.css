@@ -84,7 +84,8 @@ body{
         border: 2px solid;
         border-radius: 25px ;
         text-decoration: none;
-     
+        transition: color 0.4s ease, background-color 0.4s ease;
+    
     }
     
     .item-sedan{
